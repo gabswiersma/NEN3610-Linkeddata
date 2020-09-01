@@ -1,0 +1,86 @@
+# NEN3610 in Linked Data
+#
+# Onderdeel referenties (document en documentonderdelen)
+#
+# Update ten aanzien van NEN3610 2020
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix referentie: <http://definities.geostandaarden.nl/nen3610/id/document/>.
+
+# NORMATIEVE VERWIJZINGEN (sectie X NEN3610-2020)
+
+#NEN-ISO
+
+referentie:NEN-EN-ISO-19101-2014 a dcterms:BibliographicResource;
+	rdfs:label "NEN-EN-ISO 19101:2014"@nl;
+	dcterms:title "NEN-EN-ISO 19101:2014 Geographic information - Reference model"@en;
+.
+referentie:NEN-EN-ISO-19109-2015 a dcterms:BibliographicResource;
+	rdfs:label "NEN-EN-ISO 19109:2015"@nl;
+	dcterms:title "NEN-EN-ISO 19109:2015 Geographic information - Rules for application schema"@en;
+.
+referentie:NEN-EN-ISO-19111-2020 a dcterms:BibliographicResource;
+	rdfs:label "NEN-EN-ISO 19111:2020"@nl;
+	dcterms:title "NEN-EN-ISO 19111:2020 Geographic information - Spatial referencing by coordinates"@en;
+.
+referentie:NEN-EN-ISO-19112-2019 a dcterms:BibliographicResource;
+	rdfs:label "NEN-EN-ISO 19112:2019"@nl;
+	dcterms:title "NEN-EN-ISO 19112:2019 Geographic information - Spatial referencing by geographic identifiers"@en;
+.
+referentie:NEN-EN-ISO-19115-1-2014 a dcterms:BibliographicResource;
+	rdfs:label "NEN-EN-ISO 19115-1:2014"@nl;
+	dcterms:title "NEN-EN-ISO 19115-1:2014 Geographic information - Metadata"@en;
+.
+referentie:NEN-EN-ISO-19117-2014 a dcterms:BibliographicResource;
+	rdfs:label "NEN-EN-ISO 19117:2014"@nl;
+	dcterms:title "NEN-EN-ISO 19117:2014 Geographic information - Portrayal"@en;
+.
+referentie:NEN-EN-ISO-19125-2-2006 a dcterms:BibliographicResource;
+	rdfs:label "NEN-EN-ISO19125-2-2006"@nl;
+	dcterms:title "NEN-EN-ISO19125-2-2006 Geographic information - Simple feature access - Part 2: SQL option"@en;
+.
+referentie:NEN-EN-ISO-19103-2016 a dcterms:BibliographicResource;
+	rdfs:label "ISO/TS 19103:2016"@nl;
+	dcterms:title "ISO/TS 19103:2016 Geographic information - Conceptual schema language"@en;
+.
+# MIM-2020 STANDAARD
+
+2.2.2 Attribuutsoort en een groepering ervan
+
+referentie:MIM-2020 a dcterms:BibliographicResource;
+	rdfs:label "MIM 2020"@nl;
+	dcterms:title "MIM - Metamodel Informatie Modellering 2020"@nl;
+.
+
+referentie:MIM-2020-2-2-2 a dcterms:BibliographicResource;
+	rdfs:label "2.2.2 Attribuutsoort en een groepering ervan"@nl;
+	dcterms:isPartOf referentie:MIM-2020;
+.
+
+referentie:MIM-2020-1-6-2 a dcterms:BibliographicResource;
+	rdfs:label "1.6.2 Niveau 2: Conceptueel informatiemodel"@nl;
+	dcterms:isPartOf referentie:MIM-2020;
+.
+
+referentie:MIM-2020-1-6-3 a dcterms:BibliographicResource;
+	rdfs:label "1.6.3 Niveau 3: Logisch informatie- of gegevensmodel"@nl;
+	dcterms:isPartOf referentie:MIM-2020;
+.
+
+# NEN3610-2020 STANDAARD (Niet definitief)
+
+referentie:NEN3610-2020 a dcterms:BibliographicResource;
+	rdfs:label "NEN 3610:2011"@nl;
+	dcterms:title "NEN 3610:2011 Basismodel Geo-informatie"@nl;
+.
+
+referentie:NEN3610-2020-3 a dcterms:BibliographicResource;
+	rdfs:label "Sectie 3 NEN3610:2011"@nl;
+	dcterms:isPartOf referentie:NEN3610-2011;
+.
+
+referentie:NEN3610-2020-7 a dcterms:BibliographicResource;
+	rdfs:label "Sectie 7 NEN3610:2011"@nl;
+	dcterms:isPartOf referentie:NEN3610-2011;
+.
